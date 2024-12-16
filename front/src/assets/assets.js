@@ -14,6 +14,7 @@ import unlike from './svg/unlike.svg'
 import number_1 from './svg/1_number.svg'
 import number_2 from './svg/2_number.svg'
 import number_3 from './svg/3_number.svg'
+import menu from './svg/menu.svg'
 
 import group_profile from './img/group_profile.png'
 import chill_guy from './img/chill_guy.png'
@@ -46,5 +47,6 @@ export const assets = {
     number_3,
     best_post,
     best_post_2,
-    best_post_3
+    best_post_3,
+    menu
 }

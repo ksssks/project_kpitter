@@ -45,11 +45,11 @@ const Navbar = () => {
                         <img src={assets.dropdown} className='h-7 cursor-rotate-180 dark:invert dark:bg-white' alt="Dropdown" />
                         <p>BACK</p>
                     </div>
-                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border-b' to='/'>HOME</NavLink>
-                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border-b' to='/about'>ABOUT</NavLink>
-                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border-b' to='/allusers'>ALL USERS</NavLink>
-                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border-b' to='/auth'>YOUR POSTS</NavLink>
-                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border-b' to='/create'>MAKE A POST</NavLink>
+                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border-b dark:invert dark:bg-white' to='/'>HOME</NavLink>
+                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border-b dark:invert dark:bg-white' to='/about'>ABOUT</NavLink>
+                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border-b dark:invert dark:bg-white' to='/allusers'>ALL USERS</NavLink>
+                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border-b dark:invert dark:bg-white' to='/auth'>YOUR POSTS</NavLink>
+                    <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border-b dark:invert dark:bg-white' to='/create'>MAKE A POST</NavLink>
                 </div>
             </div>
         </div>
